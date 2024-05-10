@@ -1,20 +1,27 @@
 {
   "dependencies": {
+    "@expo/metro-runtime": "^3.2.1",
     "@react-three/fiber": "^8.3.1",
     "expo": "^51.0.0",
     "expo-asset": "~10.0.6",
     "expo-file-system": "~17.0.1",
     "expo-gl": "~14.0.2",
+    "expo-image-picker": "~15.0.4",
     "expo-modules-core": "~1.12.9",
     "expo-three": "^6.2.0",
+    "r3f-native-orbitcontrols": "^1.0.12",
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "react-native": "0.74.1",
+    "react-native-gesture-handler": "~2.16.1",
+    "react-native-reanimated": "~3.10.1",
     "react-native-web": "~0.19.6",
-    "three": "^0.145.0"
+    "three": "^0.145.0",
+    "typescript": "~5.3.3"
   },
   "devDependencies": {
-    "@babel/core": "^7.19.3"
+    "@babel/core": "^7.19.3",
+    "@types/three": "^0.164.0"
   },
   "scripts": {
     "start": "expo start",
